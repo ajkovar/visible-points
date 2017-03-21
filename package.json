@@ -9,9 +9,10 @@
     "autotest": "mocha --compilers js:babel-core/register --watch --growl"
   },
   "dependencies": {
-    "mocha": "^3.2.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
     "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
